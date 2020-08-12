@@ -1,0 +1,1 @@
+/var/www/html/WordPress-Dixeed/content/plugins/query-monitor/wp-content/db.php

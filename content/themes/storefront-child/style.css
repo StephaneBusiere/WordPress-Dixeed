@@ -1,0 +1,12 @@
+/*
+Theme Name:  My Child Theme. Child for Storefront.
+Description:  Child theme for Storefront theme.
+Author:  Busiere Stéphane
+Template:  storefront
+Version:  1.0
+               
+*/
+
+a.button.product_type_variable.add_to_cart_button, a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background-color: #EC752D;
+}

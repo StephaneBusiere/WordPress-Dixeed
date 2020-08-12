@@ -12,7 +12,7 @@
 
 # Thèmes
 /content/themes/*
-
+!/content/themes/storefront-child
 # wp-content
 /content/languages
 /content/upgrade

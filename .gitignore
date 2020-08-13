@@ -9,7 +9,7 @@
 
 # Plugins
 /content/plugins/*
-
+!/content/plugins/showMessage
 # Thèmes
 /content/themes/*
 !/content/themes/storefront-child

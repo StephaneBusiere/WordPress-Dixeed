@@ -9,14 +9,14 @@ Template Name: Minimal Landing Page
 <form action="#" method="post" class="form-event">
 <p>Aimez vous les ananas?</p>
 <div>
-  <input type="radio" id="huey" name="drone" value="huey"
+  <input type="radio" id="huey" name="drone" value="oui"
          checked>
-  <label for="huey">oui</label>
+  <label for="oui">oui</label>
 </div>
 
 <div>
-  <input type="radio" id="dewey" name="drone" value="dewey">
-  <label for="dewey">Non</label>
+  <input type="radio" id="dewey" name="drone" value="non">
+  <label for="oui">Non</label>
 </div>
 <label for="story">Pourquoi aimez vous l'ananas ou non?</label>
 <textarea id="story" name="story"
@@ -24,9 +24,20 @@ Template Name: Minimal Landing Page
 
 </textarea>
 <div class="form-example">
-    <input class="suscribeInput" type="submit" value="Dites nous tout!">
+    <input class="suscribeInput" type="submit" name="envoi"value="Dites nous tout!">
   </div>
 </form>
-
-  
+<?php 
+if(isset($_POST['envoi'])) 
+{
+    echo $_POST['story'];
+    echo $_POST['drone'];
+}
+    
+?>
+<?php
+$oagency_settings_options = get_option( 'oagency_settings_option_name' );
+$compte = $oagency_settings_options['compte_twitter_1']; 
+echo $compte;
+?>  
 <?php get_footer(); ?>

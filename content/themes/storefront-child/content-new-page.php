@@ -27,6 +27,10 @@ Template Name: Minimal Landing Page
     <input class="suscribeInput" type="submit" name="envoi"value="Dites nous tout!">
   </div>
 </form>
+
+<button class="comments-load-button">Afficher mon adresse IP</button>
+<ol class="comments" data-post-id="<?php echo get_the_ID(); ?>"></ol>
+
 <?php 
 if(isset($_POST['envoi'])) 
 {

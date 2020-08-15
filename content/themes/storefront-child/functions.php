@@ -1,4 +1,17 @@
+
+
+
 <?php
+
+add_action( 'wp_enqueue_scripts', 'custom_enqueue_script' );
+      function custom_enqueue_script() {
+            wp_enqueue_script( 'script', get_bloginfo( 'stylesheet_directory' ) . '/js/script.js', 
+            array( 'jquery' ), '', true );
+            wp_localize_script( 'script', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
+      }
+
+      
+
 require 'checkoutCustomField.php';
 
 

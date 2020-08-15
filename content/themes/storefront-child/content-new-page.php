@@ -36,8 +36,30 @@ if(isset($_POST['envoi']))
     
 ?>
 <?php
+$result=$_POST['drone'];
+$text= $_POST['story'];
+
+global $current_user;
+var_dump($current_user->ID) ;
+$current_user_ID=($current_user->ID);
+  global $wpdb;
+	
+	
+	
+	$table_name = $wpdb->prefix . 'users';
+	
+	$wpdb->update( 
+		$table_name, 
+		array( 'preferences_utilisateur' => $result.'/'.$text, ),
+    array ( 'ID'=>$current_user_ID ),
+    array ('%s'),
+     array( '%s' ) 
+        );
+?>
+<?php
 $oagency_settings_options = get_option( 'oagency_settings_option_name' );
-$compte = $oagency_settings_options['compte_twitter_1']; 
+$compte = $oagency_settings_options ['compte_twitter_1']; 
 echo $compte;
 ?>  
 <?php get_footer(); ?>
+

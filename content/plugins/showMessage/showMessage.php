@@ -21,7 +21,7 @@ if ($post_id == '9')
     foreach ($screens as $screen) {
         add_meta_box(
             'wporg_box_id',           // Unique ID
-            'Ajouter un text',  // Box title
+            'Ajouter un texte',  // Box title
             'wporg_custom_box_html',  // Content callback, must be of type callable
             $screen                   // Post type
         );}
@@ -35,7 +35,8 @@ function wporg_custom_box_html($post)
     $val = get_post_meta($post->ID,'_ma_valeur',true);
     
     
-    echo'<label for="wporg_field">Entrez votre message</label>';
+	echo'<label for="wporg_field">Entrez votre message : </label>';
+	
     echo '<input class="inputMetabox" id="mon_champ" type="text" name="mon_champ" value="'.$val.'"/>';
     
     

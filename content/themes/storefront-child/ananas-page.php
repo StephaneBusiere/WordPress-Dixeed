@@ -19,7 +19,7 @@ Template Name: Ananas choise Page
     <label for="story">Pourquoi aimez vous l'ananas ou non?</label>
     <textarea id="story" name="story"rows="5" cols="33"></textarea>
     <div class="form-example">
-    <input class="suscribeInput" type="submit" name="envoi"value="Dites nous tout!">
+    <input class="suscribeAnanas" type="submit" name="envoi"value="Dites nous tout!">
     </div>
 </form>
 
@@ -40,10 +40,12 @@ if
 }
 else $text='vous n\'aimez pas les ananas parceque';
 ?>
-<div>
-  <p class="choiseText" >Merci! Nous avons bien compris que<?php echo " ".$choiseresult.","."  ".$text." ".$choisetext ?></p>
-</div>
 <?php
+if(isset($_POST['envoi'])) {
+  echo  '<p class="choiseText" >Merci! Nous avons bien compris que'.
+  " ".$choiseresult.","."  ".$text." ".$choisetext ;
+}
+
 
 global $current_user;
 

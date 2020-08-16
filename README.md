@@ -1,3 +1,6 @@
+# Test technique Dixeed pour poste de développeur intégrateur
+Bienvenue sur ce repos! Je suis heureux d'avoir pu réaliser cet exercice qui ma permis d'apprendre de nouvelles choses.
+Vous trouverez dans ce readme toutes les informations necessaire pour cloner et utiliser ce repo.
 # Installation de WordPress avec Composer
 
 1. Télécharger WordPress, ses plugins et ses thèmes provenant de wordpress.org avec la commande `composer install`

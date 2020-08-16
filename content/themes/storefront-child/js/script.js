@@ -6,7 +6,7 @@
           
         $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
         function(json) {
-          //document.write("My public IP address is: ", json.ip);
+          
           $('.comments').html(json.ip); 
           console.log(json.ip)
         }

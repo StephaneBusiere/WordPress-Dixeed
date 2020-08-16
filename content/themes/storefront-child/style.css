@@ -10,3 +10,47 @@ Version:  1.0
 a.button.product_type_variable.add_to_cart_button, a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
     background-color: #EC752D;
 }
+
+.comments-load-button {
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+.comments {
+    text-align: center;
+    color: rgb(133, 203, 235);
+    font-size: 30px;
+    
+}
+
+.choiseText {
+    font-size: 30px;
+    color: rgb(136, 136, 236);
+}
+
+.showMessageText {
+    font-size: 30px;
+    text-align: center;
+    border: thin solid burlywood;
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+.metaboxText {
+    font-size: 30px;
+    text-align: center;
+    border: thin solid burlywood;
+    padding: 10px;
+    display:block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.woocommerce-MyAccount-content {
+    position: relative;
+    
+}

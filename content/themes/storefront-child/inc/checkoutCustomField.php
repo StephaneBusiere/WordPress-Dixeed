@@ -3,7 +3,7 @@
 function display_custom_shipping_methods() {
 	?>
 	<fieldset class="extra-fields">
-		<legend><?php _e( 'Emergency', 'wc_ccf' ); ?></legend>
+		<legend><?php _e( 'Urgence', 'wc_ccf' ); ?></legend>
 
 		<p>
 			<label for="msk-urgent-order">

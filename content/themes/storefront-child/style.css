@@ -35,7 +35,7 @@ a.button.product_type_variable.add_to_cart_button, a.button.product_type_simple.
     text-align: center;
     border: thin solid burlywood;
     display:block;
-    width: 300px;
+    width: 800px;
     margin: 0 auto;
     
 }
@@ -46,7 +46,7 @@ a.button.product_type_variable.add_to_cart_button, a.button.product_type_simple.
     border: thin solid burlywood;
     padding: 10px;
     display:block;
-    width: 300px;
+    width: 800px;
     margin: 10px auto;
 }
 

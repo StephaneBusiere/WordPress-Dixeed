@@ -26,7 +26,7 @@ Vous trouverez dans ce readme toutes les informations nécessaire pour cloner et
     * Utilisateur : Dixeed
     * Mot de passe: NLrGJMDAy6YLz0lp
 ## Dépendances du projet
-* Wordpress version 5.1
+* Wordpress version 5.4
 * Woocommerce version 4.3.3
 * Query monitor version 3.4.0
 * Theme store front version 2.5.8
@@ -78,5 +78,6 @@ Durée totale environ 15 heures
   * J'installerais un plugin de SEO comme YoastSEO, Askimet pour empêcher les spams, un plugin de cache et éventuellement un plugin de sécurité.
   * Je configurerais woocommerce pour qu'il puisse envoyer des mails.
   * Je mettrais en place un moyen de paiement par carte.
-  * J'améliorerais le css en général pour plus de personnalisation. 
+  * J'améliorerais le css en général pour plus de personnalisation.
+  * j'ai volontairement laissé wordpress en version 5.4 car la version 5.5 est sortie il y a quelques jours mais je voulais me laisser le temps de l'étudier avant de faire une mise à jour.
 

@@ -1,0 +1,6 @@
+2020-08-16T14:00:44+00:00 CRITICAL require(): Failed opening required './inc/checkoutCustomField.php' (include_path='.:/usr/share/php') dans /var/www/html/WordPress-Dixeed/content/themes/storefront-child/functions.php à la ligne 2
+
+2020-08-16T14:00:45+00:00 CRITICAL require(): Failed opening required './inc/checkoutCustomField.php' (include_path='.:/usr/share/php') dans /var/www/html/WordPress-Dixeed/content/themes/storefront-child/functions.php à la ligne 2
+
+2020-08-16T14:00:47+00:00 CRITICAL require(): Failed opening required './inc/checkoutCustomField.php' (include_path='.:/usr/share/php') dans /var/www/html/WordPress-Dixeed/content/themes/storefront-child/functions.php à la ligne 2
+

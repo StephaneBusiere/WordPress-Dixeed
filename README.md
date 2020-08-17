@@ -1,6 +1,6 @@
 # Test technique Dixeed pour poste de développeur intégrateur
 Bienvenue sur ce repos! Je suis heureux d'avoir pu réaliser cet exercice qui ma permis d'apprendre de nouvelles choses.
-Vous trouverez dans ce readme toutes les informations nécessaire pour cloner et utiliser ce repo.
+Vous trouverez dans ce readme toutes les informations nécessaires pour cloner et utiliser ce repo.
 ## Installation du projet avec Composer
 1. Cloner ce repo
 2. S'assurer que composer est bien installé sur votre machine sinon l'installer https://getcomposer.org/doc/00-intro.md
